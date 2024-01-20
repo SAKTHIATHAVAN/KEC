@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class ="container">
+        <div class = "items"><h3>1</h3></div>
+        <div class = "items"><h3>2</h3></div>
+        <div class = "items"><h3>3</h3></div>
+        <div class = "items"><h3>4</h3></div>
+        <div class = "items"><h3>5</h3></div>
+        <div class = "items"><h3>6</h3></div>
+
+
+    </div>
+</body>
+<style>
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(236, 231, 240);
+         flex-wrap: wrap;
+         border-radius:20%;
+         border-color: rgb(223, 223, 61);
+         margin: 10%;
+         
+
+    }
+    .items{
+        background-color: aqua;
+        padding: 10px;
+
+    }
+    .items{
+        font-size: 78px;
+        font-weight: semi bold;
+    }
+    .container{
+        display: grid;
+        grid-template-columns:repeat(3,2fr);
+        gap: 50px;
+        border-radius: 15px;
+        background-color: rgb(255, 0, 132);
+    }
+    .items{
+        border: 20px;
+        text-align: center;
+        
+
+
+    }
+</style>
+</html>
